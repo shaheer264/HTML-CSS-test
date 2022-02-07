@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(34, 32, 32);
+}
+.main {
+    border-radius: 10px;
+    margin: auto;
+    width: 28%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    border : 1px solid rgb(202, 196, 196);
+}
+.Upper {
+    overflow: hidden;
+}
+.digit {
+    color: white;
+    text-align: right;
+    margin-top: 2%;
+}
+.dots {
+    border-radius: 50%;
+    background-color: rgb(202, 196, 196);
+    padding: 2%;
+    width: 0.2%;
+    float: left;
+    margin: 1%;
+}
+.lower {
+    margin-left: auto;
+    display: flex;
+}
+.row {
+    overflow: hidden;
+    color: white;
+    background-color: gray;
+}
+.FirstColumn {
+    float: left;
+    padding: 4%;
+    border : 1px solid rgb(34, 32, 32);
+}
+.SecondColumn {
+    float: left;
+    padding: 4%;
+    border : 1px solid rgb(34, 32, 32);
+}
+.ThirdColumn {
+    float: left;
+    padding: 4%;
+    border : 1px solid rgb(34, 32, 32);
+}
+.FourthColumn {
+    float: left;
+    padding: 4%;
+    background-color: orange;
+    border : 1px solid rgb(34, 32, 32);
+}
